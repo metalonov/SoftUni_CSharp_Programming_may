@@ -17,7 +17,7 @@ namespace _10._Pokemon
                             //start subtracting M
                             //from N 
                 pokePower -= distance;
-                if (pokePower == halfPower) //IF N becomes equal to EXACTLY 50 % of its original value
+                if (pokePower == halfPower && exhaustionFactor != 0) //IF N becomes equal to EXACTLY 50 % of its original value
                 {
                     pokePower /= exhaustionFactor; //you must divide N by Y
                 }
